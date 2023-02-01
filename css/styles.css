@@ -22,3 +22,8 @@ table {
     border-spacing: 30px;
 }
 
+.nav{
+    display: inline-block;
+    margin: auto;
+}
+
