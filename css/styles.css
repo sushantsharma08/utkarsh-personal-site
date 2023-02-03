@@ -1,7 +1,9 @@
+*{
+    margin: 0;padding: 0;
+}
 body {
     background-color: #658864;
 }
-
 hr {
     border-style: none;
     border-top-style: dotted;
@@ -21,9 +23,22 @@ h3 {
 table {
     border-spacing: 30px;
 }
-
 .nav{
-    display: inline-block;
-    margin: auto;
+    background-color: rgb(15, 44, 46);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
 }
-
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    margin: 5px;
+    margin-inline: 8px;
+    list-style-type: none;
+}
+.nav ul li a{
+    color: rgb(179, 173, 173);
+    font-size: 22px;
+    text-decoration: none;
+}
